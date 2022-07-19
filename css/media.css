@@ -1,0 +1,271 @@
+
+/*Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .container{
+        margin: 0 auto;
+        padding: 0;
+        /* border: 1px solid green; */
+    }
+    /* .header_container{
+        gap: 100%;
+    } */
+    .menu{
+        margin: 0;
+        padding: 0;
+        width: 16rem;
+        /* border: 1px solid red; */
+    }
+
+    .menu ul li{
+        /* border: 1px solid blue; */
+        font-size: 10px;
+        padding: 0;
+    }
+
+    .menu ul li a{
+        padding-left: 0;
+        padding-right: 15px;
+    }
+    .b_h1{
+        padding: 0;
+        font-size: 1rem;
+    }
+    .b_p{
+        font-size: 10px;
+        line-height: 0.7rem;
+    }
+    .s_right h1{
+        /* margin-top: 3%; */
+        font-size: 0.8rem;
+        font-weight: bolder;
+    }
+
+    .s_left h2{
+        font-size: 1rem;
+    }
+
+    .s_left p{
+        font-size: 10px;
+        line-height: 0.7rem;
+        padding-right: 0.3%;
+    }
+
+    .f_single{
+        padding: 15px;
+    }
+    .f_single h2{
+        font-size: 18px;
+        font-style: bold;
+    }
+    .f_single p{
+        font-size: 10px;
+        line-height: 0.7rem;
+    }
+    footer p{
+        font-size: 7px;
+    }
+}
+
+
+/*Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .container{
+        margin: 0 auto;
+        padding: 0;
+        /* border: 1px solid green; */
+    }
+    /* .header_container{
+        gap: 100%;
+    } */
+    .menu{
+        margin: 0;
+        padding: 0;
+        width: 30rem;
+        /* border: 1px solid red; */
+    }
+
+    .menu ul li{
+        /* border: 1px solid blue; */
+        font-size: 13px;
+        padding: 0;
+    }
+
+    .b_h1{
+        padding: 0;
+        font-size: 1rem;
+    }
+    .b_p{
+        font-size: 10px;
+        line-height: 1rem;
+    }
+    .s_right h1{
+        /* margin-top: 3%; */
+        font-size: 1rem;
+        font-weight: bolder;
+    }
+
+    .s_left h2{
+        font-size: 1.4rem;
+    }
+
+    .s_left p{
+        font-size: 10px;
+        line-height: 1rem;
+        padding-right: 0.5%;
+    }
+
+    .f_single{
+        padding: 15px;
+    }
+    .f_single h2{
+        font-size: 18px;
+        font-style: bold;
+    }
+    .f_single p{
+        font-size: 10px;
+        line-height: 1rem;
+    }
+    footer p{
+        font-size: 10px;
+    }
+}
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .container{
+        margin: 0 auto;
+        padding: 0;
+        /* border: 1px solid green; */
+    }
+    .menu{
+        margin: 0;
+        padding: 0;
+        width: 30rem;
+        /* border: 1px solid red; */
+    }
+
+    .b_h1{
+        font-size: 1.8rem;
+    }
+    .b_p{
+        font-size: 13px;
+    }
+    .s_right h1{
+        /* margin-top: 3%; */
+        font-size: 1.6rem;
+        /* border: 1px solid red; */
+        /* padding-right: 0.34%; */
+        font-weight: bolder;
+    }
+
+    .s_left h2{
+        font-size: 2rem;
+    }
+
+    .s_left p{
+        font-size: 13px;
+        line-height: 1.4rem;
+        padding-right: 0.5%;
+    }
+
+    .f_single{
+        padding: 15px;
+    }
+    .f_single h2{
+        font-size: 18px;
+        font-style: bold;
+    }
+    .f_single p{
+        font-size: 13px;
+        line-height: 1.4rem;
+    }
+    footer p{
+        font-size: 10px;
+    }
+}
+
+@media (min-width:768px) and (max-width:845px){
+    .b_p{
+        font-size: 10px;
+        line-height: 1rem;
+    }
+    .s_left h2{
+        font-size: 1.9rem;
+    }
+    .s_left p{
+        font-size: 10px;
+        line-height: 1rem;
+    }
+    /* .s_right h1{ */
+        /* font-size: 1.8rem; */
+        /* border: 1px solid red; */
+    /* } */
+
+    .f_single p{
+        font-size: 10px;
+        line-height: 1rem;
+    }
+}
+
+
+/* Large devices (desktops, 992px and up) */
+
+@media (min-width:1146px) and (max-width:1165px){
+    .s_right h1{
+        font-size: 2.7rem;
+    }
+}
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .s_left h2{
+        font-size: 2.2rem;
+    }
+    .s_left p{
+        font-size: 13px;
+    }
+    .s_right h1{
+        font-size: 2.2rem;
+    }
+    .b_h1{
+        font-size: 2.2rem;
+    }
+    footer p{
+        font-size: 13px;
+    }
+}
+
+
+/*Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    .s_right h1{
+        font-size: 3rem;
+        padding-right: 25%;
+    }
+
+    footer p{
+        font-size: 13px;
+    }
+}
+
+/*Extra Extra large devices (extra large desktops, 1400px and up) */
+@media (min-width: 1400px) {
+    .s_left h2{
+        font-size: 3rem;
+    }
+    .s_right h1{
+        font-size: 3rem;
+        padding-right: 25%;
+    }
+}
+
+@media (min-width:1199px) and (max-width:1651px){
+    .s_left h2{
+        font-size: 2.1rem;
+    }
+
+    .s_right h1{
+        font-size: 2.1rem;
+    }
+}
